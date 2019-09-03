@@ -50,8 +50,8 @@ $('#crystal1').on('click', function(){
           youLose();
         }   
   });
-  $('#crystal1').on('click', function(){
-    counter = counter + crystal1;
+  $('#crystal4').on('click', function(){
+    counter = counter + crystal4;
       $('#score').text(counter); 
           //sets win/lose conditions
         if (counter == goal){
