@@ -67,6 +67,7 @@ function youWin () {
     alert("You win!");
     wins++;
     $('#winner').text(wins);
+    
   }
 
   function youLose ()  {
